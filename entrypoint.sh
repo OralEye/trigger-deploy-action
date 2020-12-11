@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 AUTH_HEADER="Authorization: token ${INPUT_GITHUB_TOKEN}"
 
 curl \
