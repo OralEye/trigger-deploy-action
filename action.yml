@@ -2,6 +2,9 @@
 name: 'trigger-deploy-action'
 description: 'Trigger a deployment of the jaws2 framework'
 inputs:
+  repo_name:
+    description: The name of the repo to execute in the format org/repo_name
+    required: True
   github_token:
     description: 'The github PAT token for the remote repository'
     required: True
